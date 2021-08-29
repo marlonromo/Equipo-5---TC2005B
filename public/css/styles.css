@@ -1,0 +1,24 @@
+form {
+    background-color:#f90;
+}
+
+.nav-link {
+    color: black !important;
+}
+.nav-link:hover {
+    color: #f30 !important;
+}
+.logOutBtn:hover{
+    background-color: #f30 !important;
+}
+.progress {
+    height: 50px;  
+}
+
+.progress-bar{
+    background-color: #f90;
+}
+
+.achievement-title {
+    margin-top: 2%;
+}

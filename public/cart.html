@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Ternium</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo/logo-icon.jpeg">
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="assets/css/flaticon.css" />
+    <link rel="stylesheet" href="assets/css/slicknav.css" />
+    <link rel="stylesheet" href="assets/css/animate.min.css" />
+    <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css" />
+    <link rel="stylesheet" href="assets/css/themify-icons.css" />
+    <link rel="stylesheet" href="assets/css/slick.css" />
+    <link rel="stylesheet" href="assets/css/nice-select.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="./jquery.datetimepicker.css" /> -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.2.0/css/datepicker.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <!-- Header Start -->
+      <div class="header-area">
+        <div class="main-header header-sticky">
+          <div class="container-fluid">
+            <div class="menu-wrapper">
+              <!-- Logo -->
+              <div class="logo">
+                <a href="./Game/index.html">
+                  <img src="assets/img/logo/logo.png" alt="" width="135"/>
+                </a>
+              </div>
+              <!-- Main-menu -->
+              <div class="main-menu d-none d-lg-block"></div>
+              <!-- Header Right -->
+              <nav>
+                <ul
+                  id="navigation"
+                  style="padding-top: 30px; padding-bottom: 30px;"
+                >
+                  <a href="login.html"
+                    ><button
+                      class="btn btn-outline-success my-2 my-sm-0"
+                      type="submit"
+                      style="background-color: #e74c3c;"
+                    >
+                      Cerrar Sesión
+                    </button></a
+                  >
+                </ul>
+              </nav>
+            </div>
+            <!-- Mobile Menu -->
+            <div class="col-12">
+              <div class="mobile_menu d-block d-lg-none"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Header End -->
+    </header>
+    <main>
+      <!--================End Cart Area =================-->
+
+      <h2 class="card-title" style="text-align: center">
+        Progreso mensual del jugador
+      </h2>
+      <p></p>
+      <section class="login_part">
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-body">
+                <h4>Selecciona un mes:</h4>
+                <input
+                  type="text"
+                  class="form-control"
+                  name="datepicker"
+                  id="datepicker"
+                />
+                <p></p>
+                <h5>Selecciona las opciones que deseas graficar:</h5>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="flexRadioExperiencia"
+                  />
+                  <label class="form-check-label" for="flexRadioDefault1">
+                    Experiencia
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="flexRadioDinero"
+                  />
+                  <label class="form-check-label" for="flexRadioDefault2">
+                    Dinero
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="flexRadioMetal"
+                  />
+                  <label class="form-check-label" for="flexRadioDefault3">
+                    Metal
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="flexRadioContratos"
+                  />
+                  <label class="form-check-label" for="flexRadioDefault4">
+                    Contratos
+                  </label>
+                  <br />
+                  <button class="btn_3" id="boton">Graficar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-7">
+            <div class="card">
+              <header>
+                <div class="header-area">
+                  <nav>
+                    <a
+                      href="#"
+                      class="list-group-item list-group-item-action active"
+                      style="background-color: #ffa500;"
+                      ><h3 style="text-align: center">Gráfica</h3></a
+                    >
+                  </nav>
+                </div>
+              </header>
+
+              <figure class="highcharts-figure">
+                <div id="container"></div>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <!-- Footer Start-->
+
+      <!-- Footer End-->
+    </footer>
+    <!--? Search model Begin -->
+    <div class="search-model-box">
+      <div class="h-100 d-flex align-items-center justify-content-center">
+        <div class="search-close-btn">+</div>
+        <form class="search-model-form">
+          <input
+            type="text"
+            id="search-input"
+            placeholder="Searching key....."
+          />
+        </form>
+      </div>
+    </div>
+    <!-- Search model end -->
+
+    <!-- JS here -->
+
+    <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
+    <!-- Jquery, Popper, Bootstrap -->
+    <script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="./assets/js/popper.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.6.0/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.2.0/js/bootstrap-datepicker.min.js"></script>
+
+    <!-- Date picker -->
+    <script>
+      $('#datepicker').datepicker({
+        format: 'yyyy-mm',
+        startView: 'months',
+        minViewMode: 'months'
+      });
+    </script>
+
+    <!-- Jquery Mobile Menu -->
+    <script src="./assets/js/jquery.slicknav.min.js"></script>
+
+    <!-- Jquery Slick , Owl-Carousel Plugins -->
+    <script src="./assets/js/owl.carousel.min.js"></script>
+    <script src="./assets/js/slick.min.js"></script>
+
+    <!-- One Page, Animated-HeadLin -->
+    <script src="./assets/js/wow.min.js"></script>
+    <script src="./assets/js/animated.headline.js"></script>
+
+    <!-- Scrollup, nice-select, sticky -->
+    <script src="./assets/js/jquery.scrollUp.min.js"></script>
+    <script src="./assets/js/jquery.nice-select.min.js"></script>
+    <script src="./assets/js/jquery.sticky.js"></script>
+    <script src="./assets/js/jquery.magnific-popup.js"></script>
+
+    <!-- contact js -->
+    <script src="./assets/js/contact.js"></script>
+    <script src="./assets/js/jquery.form.js"></script>
+    <script src="./assets/js/jquery.validate.min.js"></script>
+    <script src="./assets/js/mail-script.js"></script>
+    <script src="./assets/js/jquery.ajaxchimp.min.js"></script>
+
+    <!-- Jquery Plugins, main Jquery -->
+    <script src="./assets/js/plugins.js"></script>
+    <script src="./assets/js/main.js"></script>
+
+    <!-- Script graficas -->
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="progressChart.js"></script>
+  </body>
+</html>

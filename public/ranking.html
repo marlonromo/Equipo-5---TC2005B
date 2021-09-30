@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="zxx">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Ternium</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo/logo-icon.jpeg">
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    
+</head>
+<body>
+    <header>
+        <div class="header-area">
+            <div class="main-header header-sticky">
+                <div class="container-fluid">
+                    <div class="menu-wrapper">
+                        <div class="logo">
+                            <a href="index.html"><img src="assets/img/logo/logo.png" alt="" width="200px"></a>
+                        </div>
+                        <div class="main-menu d-none d-lg-block">
+                            <nav>                                                
+                                <ul id="navigation" style="padding-top: 30px; padding-bottom: 30px;">  
+                                    <li><a href="Soporte tecnico.html" target="_blank"> Soporte técnico</a></li>
+                                    <a href="login.html"><button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="background-color: #e74c3c;">Cerrar Sesión</button></a>
+                                </ul>
+                            </nav>
+                        </div>                       
+                    </div>
+                    <div class="col-12"> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="row">
+        <div class="col-sm-3">
+            <div class="card">
+                
+                <div class="card-body">
+                    
+                    <nav class="navbar navbar-light bg-light">
+                        <form class="form-inline" method="GET">
+                            <input class="form-control mr-sm-2" id="buscarRanking"type="text"placeholder="Search" aria-label="Search">
+                            
+                            <button class="btn btn-outline-success my-2 my-sm-0" id="buscarRank" onclick="aniadir()" type="button" style="background-color: #ffa500;">Search</button>
+                        </form>
+                    </nav>
+                    <h5 class="card-title">Empleados</h5>
+                    <div class="list-group">
+                        <a href="#" id="nombre1" class="list-group-item list-group-item-action active" style="background-color: #ffa500;"> </a>
+                        <a href="#" id="nombre2" class="list-group-item list-group-item-action" style="background-color: #d4d4d4;"> </a>
+                        <a href="#" id="nombre3" class="list-group-item list-group-item-action" style="background-color: #d4d4d4;"> </a>
+                        <a href="#" id="nombre4" class="list-group-item list-group-item-action" style="background-color: #d4d4d4;"> </a>
+                        <a href="#" id="nombre5" class="list-group-item list-group-item-action" style="background-color: #d4d4d4;"> </a>
+                        <a href="#" id="nombre6" class="list-group-item list-group-item-action" style="background-color: #d4d4d4;"> </a>
+                        <a href="#" id="nombre7" class="list-group-item list-group-item-action" style="background-color: #d4d4d4;"> </a>
+                        <a href="#" id="nombre8" class="list-group-item list-group-item-action" style="background-color: #d4d4d4;"> </a>
+                        <a href="#" id="nombre9" class="list-group-item list-group-item-action" style="background-color: #d4d4d4;"> </a>
+                        <a href="#" id="nombre10" class="list-group-item list-group-item-action" style="background-color: #d4d4d4;"> </a>
+                    </div>
+                </div>
+                <a href="admin.html" class="btn btn-success btn-lg active" role="button" aria-pressed="true" style="background-color: #ffa500;">Regresar</a>
+            </div>  
+        </div>
+        <div class="col-sm-9">
+            <div class="card">
+                <header>
+                    <div class="header-area">
+                        <div class="main-header header-sticky" style="padding-left: 0px;">
+                            <div class="container-fluid">
+                                <div class="menu-wrapper">
+                                    <div class="main-menu d-none d-lg-block">
+                                        <nav>                                                
+                                            <ul id="navigation"  style="padding-top: 20px; padding-bottom: 30px;">  
+                                                <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" style="background-color: #ffa500;">Rendimiento</a>
+                                                <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" style="background-color: #ffa500;">Capacidad</a>
+                                            </ul>
+                                        </nav>
+                                    </div>                       
+                                </div>
+                                <div class="col-12">
+                                    <div class="main-menu d-none d-lg-block">
+                                    </div>     
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                <div class="card-body">
+                    
+                    <h1 class="card-title" id="nombreJugador">/   Rendimiento global</h5>
+                        <div class="col-sm-11">
+                            <figure class="highcharts-figure">
+                                <div id="container"></div>
+                            </figure>
+                            
+                        </div>
+                        
+                        
+                    
+
+                </div>
+            </div>
+            
+        </div>
+        
+    </div>
+    <script>
+    </script>
+
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+    
+    <script src="js/bootstrap.bundle.js"></script>
+    <!-- <!script src="assets/js/chartRank.js"><!/script> -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="ranking.js"></script>
+
+    
+    
+    
+</body>
+</html>

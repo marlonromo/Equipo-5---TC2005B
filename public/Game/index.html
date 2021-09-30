@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Ternium Steel</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <link rel="manifest" href="../site.webmanifest">
+    <link rel="shortcut icon" type="image/x-icon" href="../assets/img/logo/logo-icon.jpeg">
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <script>
+      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/Game.json", {onProgress: UnityProgress});
+    </script>
+  </head>
+  <body>
+    <header>
+      <!-- Header Start -->
+      <div class="header-area">
+          <div class="main-header header-sticky">
+              <div class="container-fluid">
+                  <div class="menu-wrapper">
+                      <!-- Logo -->
+                      <div class="logo">
+                          <a href="./index.html"><img src="../assets/img/logo/logo.png" alt="Logo Ternium" width="135"></a>
+                      </div>
+                      <!-- Main-menu -->
+                      <div class="main-menu d-none d-lg-block">
+                          <nav>                                                
+                              <ul id="navigation">  
+                                  <li><a href="https://mx.ternium.com/es" target="_blank">Sobre nosotros</a></li>
+                                  <li><a href="../Soporte tecnico.html" target="_blank">Soporte técnico</a></li>
+                                  <li><a href="../Logros.html">Logros</a></li>
+                                  <li><a id="progreso">Progreso</a></li>
+                                  <li><a href="../login.html">Cerrar sesión</a></li>
+                              </ul>
+                          </nav>
+                      </div>
+                  </div>
+                  <!-- Mobile Menu -->
+                  <div class="col-12">
+                      <div class="mobile_menu d-block d-lg-none"></div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!-- Header End -->
+  </header>
+  <main>
+    <!--? Hero Area End-->
+    <!--================Blog Area =================-->
+    <section class="blog_area section-padding" >
+        <div class="container" style="padding-top: 4%;">
+            <div class="row">
+                <div class="col-lg-10 mb-7 mb-lg-2" >
+                    <div class="blog_left_sidebar">
+                      <div class="webgl-content">
+                        <div id="unityContainer" style="width: 960px; height: 600px"></div>
+                          <div class="footer">
+                          <div class="webgl-logo"></div>
+                          <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+                          <div class="title">Ternium Game Development</div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="blog_right_sidebar">
+                        <aside class="single_sidebar_widget post_category_widget">
+                            <h4 class="widget_title">Otros jugadores</h4>
+                            <ul class="list cat-list">
+                                <li>
+                                    <a href="#" class="d-flex">
+                                        <p>Christian Eduardo</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="d-flex">
+                                        <p>Juan Fernando</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="d-flex">
+                                        <p>Ana Vea</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="d-flex">
+                                        <p>Javier Pedraza</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </aside>
+                    </div>
+                </div>
+                <div class="col-lg-1" style="padding-top: 15%;">
+                    <div class="blog_left_sidebar">
+                        <img src="../assets/img/blog/mouse.png" alt="Mouse" width="115">
+                    </div>
+                </div>
+                <div class="col-lg-2" style="padding-top: 15%;">
+                    <div class="blog_right_sidebar">
+                        <img src="../assets/img/blog/flechas.png" alt="Flechas" width="275">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <script src= "../game.js"></script>
+  </body>
+</html>

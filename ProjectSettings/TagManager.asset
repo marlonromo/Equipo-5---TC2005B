@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - IronGenerator
+  - FurnaceGenerator
+  - SalesGenerator
+  - DistributionGenerator
+  - EnergyGenerator
+  - StreetStraight
+  - PackageGenerator
+  - Picos
+  - stone
+  - lpl
+  - be
+  - rojo
+  - ccdd
+  - prepintado
+  - ccd
+  - HAE
+  - electro
+  - "esta\xF1ado"
+  - pftp
+  - cbof
+  - carro
+  - alambron
+  - ahorno
+  - resorte
+  - electrodomesticos
+  - barra
+  - paneles
+  - bgc
+  - lc
+  - bb
+  - bc
+  - RD
+  - chatarra
+  - mineria
+  - lf
+  - tubos_perf
+  - varillas
+  - plata
+  - ccp
+  - puerto
+  - cd
+  - techo
+  - barril
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

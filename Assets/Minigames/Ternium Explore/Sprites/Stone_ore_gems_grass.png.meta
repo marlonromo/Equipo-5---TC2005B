@@ -1,0 +1,920 @@
+fileFormatVersion: 2
+guid: 3d06db61a9a704ef0a204f9b0fa84eba
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3390900667469311535
+    second: Stone_ore_gems_grass_0
+  - first:
+      213: 3330799819993655003
+    second: Stone_ore_gems_grass_1
+  - first:
+      213: -1079283667250310782
+    second: Stone_ore_gems_grass_2
+  - first:
+      213: -123317517559276693
+    second: Stone_ore_gems_grass_3
+  - first:
+      213: 2605868619132049941
+    second: Stone_ore_gems_grass_4
+  - first:
+      213: 6854962552345543539
+    second: Stone_ore_gems_grass_5
+  - first:
+      213: 7390265196465101249
+    second: Stone_ore_gems_grass_6
+  - first:
+      213: -965473580297667246
+    second: Stone_ore_gems_grass_7
+  - first:
+      213: 7584327070296316498
+    second: Stone_ore_gems_grass_8
+  - first:
+      213: 5115216880974810642
+    second: Stone_ore_gems_grass_9
+  - first:
+      213: -657760140597031870
+    second: Stone_ore_gems_grass_10
+  - first:
+      213: -8284743614732878505
+    second: Stone_ore_gems_grass_11
+  - first:
+      213: -2641996588462697884
+    second: Stone_ore_gems_grass_12
+  - first:
+      213: -7944293954753012970
+    second: Stone_ore_gems_grass_13
+  - first:
+      213: -9114437406709480592
+    second: Stone_ore_gems_grass_14
+  - first:
+      213: -3609993477140233731
+    second: Stone_ore_gems_grass_15
+  - first:
+      213: -2522668115608062667
+    second: Stone_ore_gems_grass_16
+  - first:
+      213: -5073649391334066832
+    second: Stone_ore_gems_grass_17
+  - first:
+      213: -2330744588781366597
+    second: Stone_ore_gems_grass_18
+  - first:
+      213: -376154133391370973
+    second: Stone_ore_gems_grass_19
+  - first:
+      213: 1562574138610584541
+    second: Stone_ore_gems_grass_20
+  - first:
+      213: 1315492833782969174
+    second: Stone_ore_gems_grass_21
+  - first:
+      213: 7880585855058803476
+    second: Stone_ore_gems_grass_22
+  - first:
+      213: 986236259641686031
+    second: Stone_ore_gems_grass_23
+  - first:
+      213: 589289039501398266
+    second: Stone_ore_gems_grass_24
+  - first:
+      213: -9153946875573408377
+    second: Stone_ore_gems_grass_25
+  - first:
+      213: 8492856607988951169
+    second: Stone_ore_gems_grass_26
+  - first:
+      213: 3247251215220079115
+    second: Stone_ore_gems_grass_27
+  - first:
+      213: 7970532458861313863
+    second: Stone_ore_gems_grass_28
+  - first:
+      213: 3426411314559874474
+    second: Stone_ore_gems_grass_29
+  - first:
+      213: 4513312022281821681
+    second: Stone_ore_gems_grass_30
+  - first:
+      213: -8842185864715001520
+    second: Stone_ore_gems_grass_31
+  - first:
+      213: -1674622689209426579
+    second: Stone_ore_gems_grass_32
+  - first:
+      213: 2818008456543050550
+    second: Stone_ore_gems_grass_33
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Stone_ore_gems_grass_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 63
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d15bd60fc911f0d0800000000000000
+      internalID: -3390900667469311535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stone_ore_gems_grass_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd628a8f9c0693e20800000000000000
+      internalID: 3330799819993655003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stone_ore_gems_grass_2
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 160
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2811aa1193d9501f0800000000000000
+      internalID: -1079283667250310782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stone_ore_gems_grass_3
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 163
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6bdb430f53e94ef0800000000000000
+      internalID: -123317517559276693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stone_ore_gems_grass_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 63
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51a14bed3b7e92420800000000000000
+      internalID: 2605868619132049941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stone_ore_gems_grass_5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 144
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37349294f18b12f50800000000000000
+      internalID: 6854962552345543539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stone_ore_gems_grass_6
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 144
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c91c377a0f7f8660800000000000000
+      internalID: 7390265196465101249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stone_ore_gems_grass_7
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 147
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25d355ed4e2f992f0800000000000000
+      internalID: -965473580297667246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stone_ore_gems_grass_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 63
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a14657941f04960800000000000000
+      internalID: 7584327070296316498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stone_ore_gems_grass_9
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21ec593d6a6ecf640800000000000000
+      internalID: 5115216880974810642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stone_ore_gems_grass_10
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 128
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24c8d4813aa2fd6f0800000000000000
+      internalID: -657760140597031870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stone_ore_gems_grass_11
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 131
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75d39aca39da60d80800000000000000
+      internalID: -8284743614732878505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stone_ore_gems_grass_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 63
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46213e6c91eb55bd0800000000000000
+      internalID: -2641996588462697884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stone_ore_gems_grass_13
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 112
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61bd9a32db230c190800000000000000
+      internalID: -7944293954753012970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stone_ore_gems_grass_14
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 112
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0738c8d0873038180800000000000000
+      internalID: -9114437406709480592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stone_ore_gems_grass_15
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 115
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df144912f0ab6edc0800000000000000
+      internalID: -3609993477140233731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stone_ore_gems_grass_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 63
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5353afae6beadfcd0800000000000000
+      internalID: -2522668115608062667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stone_ore_gems_grass_17
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 075f7aa82c6c699b0800000000000000
+      internalID: -5073649391334066832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stone_ore_gems_grass_18
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 96
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb2d583352887afd0800000000000000
+      internalID: -2330744588781366597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stone_ore_gems_grass_19
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 99
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32599620fc1a7caf0800000000000000
+      internalID: -376154133391370973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stone_ore_gems_grass_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 63
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddb881376e06fa510800000000000000
+      internalID: 1562574138610584541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stone_ore_gems_grass_21
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 80
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 653b43633c1914210800000000000000
+      internalID: 1315492833782969174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stone_ore_gems_grass_22
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 80
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41b7fb005177d5d60800000000000000
+      internalID: 7880585855058803476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stone_ore_gems_grass_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 63
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f087d8027a0dfad00800000000000000
+      internalID: 986236259641686031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stone_ore_gems_grass_24
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af0138d52439d2800800000000000000
+      internalID: 589289039501398266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stone_ore_gems_grass_25
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 64
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d66acf0d5a6f080800000000000000
+      internalID: -9153946875573408377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stone_ore_gems_grass_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 63
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 188a28f7610bcd570800000000000000
+      internalID: 8492856607988951169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stone_ore_gems_grass_27
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0af5ab86cd801d20800000000000000
+      internalID: 3247251215220079115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stone_ore_gems_grass_28
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 48
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74f3629aa050d9e60800000000000000
+      internalID: 7970532458861313863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stone_ore_gems_grass_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 63
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa578bacfee0d8f20800000000000000
+      internalID: 3426411314559874474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stone_ore_gems_grass_30
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fd9b982f5182ae30800000000000000
+      internalID: 4513312022281821681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stone_ore_gems_grass_31
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 32
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 051aeafcdce3a4580800000000000000
+      internalID: -8842185864715001520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stone_ore_gems_grass_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6
+        width: 63
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6ddcd4698b82c8e0800000000000000
+      internalID: -1674622689209426579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stone_ore_gems_grass_33
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 16
+        width: 16
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63b9b42c2c39b1720800000000000000
+      internalID: 2818008456543050550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

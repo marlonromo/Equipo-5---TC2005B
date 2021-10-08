@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33b762a7796d94449896cd40528add32, type: 3}
+  m_Name: Ternium
+  m_EditorClassIdentifier: 
+  questions:
+  - questionImage: {fileID: 21300000, guid: 5b81786c5660d67449449ee5cd3dbc73, type: 3}
+    answer: Varilla
+  - questionImage: {fileID: 21300000, guid: ecf57c2d021abfa4b992c322783574d9, type: 3}
+    answer: Zintro
+  - questionImage: {fileID: 21300000, guid: 7744d34cdb579fe4cb005be0c515c7e6, type: 3}
+    answer: PerfilZ
+  - questionImage: {fileID: 21300000, guid: f8ddc43883d520b4bb974a012738b5cf, type: 3}
+    answer: PerfilU
+  - questionImage: {fileID: 21300000, guid: b299d04d9bb1b0445a0ef6367ad72c4f, type: 3}
+    answer: Drywall
+  - questionImage: {fileID: 21300000, guid: 4d2ae971c17713c4d91e19505f036390, type: 3}
+    answer: PerfilC

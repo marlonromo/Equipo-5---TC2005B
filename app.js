@@ -31,7 +31,7 @@ app.use(morgan('combined', { stream: accessLogStream }));
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 app.use(router);
 
-const port = 8080;
+const port = 4000;
 
 app.listen(process.env.PORT || port, err => {
   if (err) console.log('Unable to start the server!');

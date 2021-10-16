@@ -6,7 +6,7 @@ const password = document.getElementById('password');
 boton.addEventListener('click', () => {
   axios({
     method: 'GET',
-    url: 'http://localhost:8080/api/json/loginPlayer/' + email.value
+    url: 'http://localhost:4000/api/json/loginPlayer/' + email.value
   })
     .then(res => {
       //const userInfo = res.data;

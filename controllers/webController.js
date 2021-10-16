@@ -46,7 +46,7 @@ class MainController {
           .input('pass', sql.VarChar, req.body.Password)
           .input('admin', sql.Bit, req.body.EsAdministrador)
           .query(
-            'insert into [dbo].[Usuario] values(@nombre, @apellido, @email, @pass, @admin) EXECUTE SPUpdatePlayer 0, 0, @nombre, 3000, 0, 0, 0 , 1'
+            'EXECUTE SPUpdatePlayer 0, 0, @nombre, 3000, 0, 0, 0 , 1 insert into [dbo].[Usuario] values(@@IDENTITY, @nombre, @apellido, @email, @pass, @admin) '
           );
         res.json(result);
       } else {

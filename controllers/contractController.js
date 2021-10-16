@@ -12,6 +12,7 @@ class MainController {
             .query("EXECUTE SPGetLastContract @contractID")
             res.json(result.recordset)
         } catch (error) {
+            console.log(error)
             res.status(500)
             res.send(error.message)
         }

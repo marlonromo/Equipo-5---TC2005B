@@ -14,7 +14,7 @@ boton.addEventListener('click', () => {
   var date = [];
   axios({
     method: 'GET',
-    url: 'http://localhost:8080/api/json/getStatisticsID/' + id
+    url: 'http://localhost:4000/api/json/getStatisticsID/' + id
   })
     .then(res => {
       var i;

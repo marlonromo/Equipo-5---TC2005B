@@ -16,7 +16,7 @@ console.log(searchBar.value);
 http://localhost:4000/api/json/statistics/1
 axios({
 method: 'GET',
-url: 'http://localhost:8080/api/json/getStatistics'
+url: 'http://localhost:4000/api/json/getStatistics'
 })
 .then(res => {
     var d = new Date();
@@ -88,7 +88,7 @@ function aniadir(){
   http://localhost:4000/api/json/statistics/1
   axios({
   method: 'GET',
-  url: 'http://localhost:8080/api/json/getStatistics' 
+  url: 'http://localhost:4000/api/json/getStatistics' 
   //nombre.value
   })
   .then(res => {

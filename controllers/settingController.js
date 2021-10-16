@@ -12,6 +12,7 @@ class MainController {
             .query("EXECUTE SPGetSetting @playerID")
             res.json(result.recordset)
         } catch (error) {
+            console.log(error)
             res.status(500)
             res.send(error.message)
         }
@@ -40,10 +41,12 @@ class MainController {
 
     async addSetting(req , res){
         try {
-            if(req.body.playerID != null && req.body.volumeMusic != null && req.body.cameraSensibility != null && req.body.cameraSpeed != null){
+            console.log(req.body)
+            if(req.body.IDPlayer != null && req.body.volumeMusic != null && req.body.cameraSensibility != null && req.body.cameraSpeed != null){
+                console.log(req.body)
                 const pool = await poolPromise
                 const result = await pool.request()
-                .input('playerID', sql.Int, req.body.playerID)
+                .input('playerID', sql.Int, req.body.IDPlayer)
                 .input('volumeMusic', sql.Int, req.body.volumeMusic)
                 .input('cameraSensibility', sql.Int, req.body.cameraSensibility)
                 .input('cameraSpeed', sql.Int, req.body.cameraSpeed)

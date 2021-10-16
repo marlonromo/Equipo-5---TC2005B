@@ -40,7 +40,7 @@ router.delete('/api/deleteBuilding/:playerID/:buildingGameID', buildingControlle
 //setting
 router.get('/api/getSetting/:id', settingController.getSetting);
 router.put('/api/updateSetting/:id', settingController.updateSetting);
-router.post('/api/addSetting', settingController.addSetting);
+router.put('/api/addSetting', settingController.addSetting);
 //friends
 router.get('/api/checkFriendUpdate/:id', friendController.checkUpdateFriend);
 router.get('/api/getFriend/:id', friendController.getFriend);

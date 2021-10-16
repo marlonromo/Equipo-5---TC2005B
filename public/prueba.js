@@ -5,7 +5,7 @@ let players=[];
 boton.addEventListener('click', () => {
     axios({
     method: 'GET',
-    url: 'http://localhost:8080/api/getPlayers' 
+    url: 'http://localhost:4000/api/getPlayers' 
     })
     .then(res => {
       //const userInfo = res.data;

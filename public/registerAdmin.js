@@ -17,7 +17,7 @@ boton.addEventListener('click', () => {
   else{
     axios({
       method: 'POST',
-      url: 'http://localhost:8080/api/addPlayer',
+      url: 'http://localhost:4000/api/addPlayer',
       data: {
         Nombre: userName.value,
         Apellido: lastName.value,

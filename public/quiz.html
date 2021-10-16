@@ -47,15 +47,30 @@
                 <!-- AQUI ES DONDE VA EL BUSCAR  -->
                 <div class="card"></div>
                     <div class="card-body">
-                        <h1 class="card-title">Introduce el nombre de la imagen</h5>
-                        <nav class="navbar navbar-light bg-light">
-                            <!-- <form class="form-inline">  -->
+                        <h2 class="card-title">Introduce el nombre de la imagen</h2>
+                        <form>
+                            <div class="input-group">
                                 <input class="form-control" id="imgInput" type="search" placeholder="Nombre" aria-label="Search">
-                                <!-- chartid js  -->
-                                <button class="btn btn-outline-success my-2 my-sm-0" id="botonAgregar" type="submit" style="background-color: #ffa500;">Agregar</button>
-                                <button class="btn btn-outline-success my-2 my-sm-0" id="botonEliminar" type="submit" style="background-color: #ffa500;">Eliminar</button>
-                            <!-- </form> -->
-                        </nav>
+                                <button class="btn btn-outline-success p-2 mx-2 my-sm-0 rounded" id="botonAgregar" type="submit" style="background-color: #ffa500;">Agregar</button>
+                                <button class="btn btn-outline-success p-2 my-sm-0 rounded" id="botonEliminar" type="submit" style="background-color: #ffa500;">Eliminar</button>
+                            </div>
+                        </form>
+                        <h2 class="card-title mt-5">Introduce la pregunta</h2>
+                            <form >
+                                <div class="input-group">
+                                    <input class="form-control mb-2" id="imgInput" type="search" placeholder="Pregunta" aria-label="Search">
+                                    <button class="btn btn-outline-success p-2 my-sm-0 rounded" id="botonAgregarPregunta" type="submit" style="background-color: #ffa500;">Agregar</button>
+                                </div>
+                            </form>
+                            <form>
+                                <div class="mt-2">
+                                    <h4 class="card-title">Introduce las respuestas</h4>
+                                    <input class="form-control mb-2" id="RespuestaCorrecta" type="search" placeholder="Respuesta correcta" aria-label="Search">
+                                    <input class="form-control mb-2 RespuestaIncorrecta" type="search" placeholder="Respuesta incorrecta" aria-label="Search">
+                                    <input class="form-control mb-2" type="search" placeholder="Respuesta incorrecta" aria-label="Search">
+                                    <input class="form-control mb-2" type="search" placeholder="Respuesta incorrecta" aria-label="Search">
+                                </div>
+                            </form>
                     </div>
                 </div>
             </div>

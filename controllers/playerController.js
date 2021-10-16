@@ -14,6 +14,7 @@ class MainController {
             console.log('hola:' + id)
             res.json(result.recordset)
         } catch (error) {
+            console.log(error)
             res.status(500)
             res.send(error.message)
         }

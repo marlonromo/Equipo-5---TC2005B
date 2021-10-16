@@ -10,6 +10,7 @@ class MainController {
             .query("EXECUTE SPGetBuilding @playerID")
             res.json(result.recordset)
         } catch (error) {
+            console.log(error)
             res.status(500)
             res.send(error.message)
         }
@@ -36,6 +37,7 @@ class MainController {
                 res.send('Todos los campos son obligadorios!')
             }
         } catch (error) {
+            console.log(error)
             res.status(500)
             res.send(error.message)
         }

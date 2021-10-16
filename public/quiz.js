@@ -5,7 +5,7 @@ const imgN = document.getElementById('imgInput');
 botonAgregar.addEventListener('click', () => {
   axios({
     method: 'POST',
-    url: 'http://localhost:8080/api/addImg',
+    url: 'http://localhost:4000/api/addImg',
     data: {
       questionImage: imgN.value
     }
@@ -19,7 +19,7 @@ botonAgregar.addEventListener('click', () => {
 botonEliminar.addEventListener('click', () => {
   axios({
     method: 'delete',
-    url: 'http://localhost:8080/api/deleteImg/' + imgN.value,
+    url: 'http://localhost:4000/api/deleteImg/' + imgN.value,
     data: {
       questionImage: imgN.value
     }

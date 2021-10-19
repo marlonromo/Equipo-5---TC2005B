@@ -25,6 +25,7 @@ router.get('/api/json/getStatistics', webcontroller.getStatistics);
 router.get('/api/json/statistics/:name', webcontroller.getStatisticsName);
 router.get('/api/json/getStatisticsID/:id', webcontroller.getStatisticsID);
 router.post('/api/addImg', webcontroller.addImg);
+router.post('/api/addQuestion/', webcontroller.addQuestion);
 router.delete('/api/deleteImg/:questionImage', webcontroller.deleteImg);
 //game
 //player

@@ -139,9 +139,10 @@ class MainController {
       const pool = await poolPromise;
       const result = await pool
         .request()
-        .query('SELECT Statistic.*, Usuario.Nombre, Usuario.Apellido, Usuario.EsAdministrador FROM Statistic INNER JOIN Usuario ON Usuario.IDUsuario = Statistic.playerID  WHERE Usuario.EsAdministrador = 0');
+        .query('SELECT Statistic.*, Usuario.Nombre, Usuario.Apellido, Usuario.isAdmin FROM Statistic INNER JOIN Usuario ON Usuario.IDUsuario = Statistic.playerID  WHERE Usuario.isAdmin = 0');
       res.json(result.recordset);
     } catch (error) {
+      console.log(error)
       res.status(500);
       res.send(error.message);
     }
@@ -153,11 +154,12 @@ class MainController {
         .request()
         .input('playerName', sql.VarChar, req.params.name)
         .query(
-          'SELECT s.playerID, s.statisticID, s.timeDate, s.constructionNumber, s.totalMoney, s.totalSteel, s.totalContract, s.playerExperience,s.totalIron,s.totalUnpackageSteel, s.ironToSteelTransform, u.IDUsuario, u.EsAdministrador FROM Statistic AS s join Player AS p ON s.playerID = p.playerID join Usuario AS u ON s.playerID = u.IDUsuario WHERE p.playerName = @playerName AND u.EsAdministrador = 0'
+          'SELECT s.playerID, s.statisticID, s.timeDate, s.constructionNumber, s.totalMoney, s.totalSteel, s.totalContract, s.playerExperience,s.totalIron,s.totalUnpackageSteel, s.ironToSteelTransform, u.IDUsuario, u.isAdmin FROM Statistic AS s join Player AS p ON s.playerID = p.playerID join Usuario AS u ON s.playerID = u.IDUsuario WHERE p.playerName = @playerName AND u.isAdmin = 0'
         );
       var id = req.params.name;
       res.json(result.recordset);
     } catch (error) {
+      console.log(error)
       res.status(500);
       res.send(error.message);
     }
@@ -210,6 +212,29 @@ class MainController {
         res.send('Agrega el nombre de la imagen!');
       }
     } catch (error) {
+      res.status(500);
+      res.send(error.message);
+    }
+  }
+  async addQuestion(req, res) {
+    try {
+      console.log(req.body)
+      if (req.body.question != null &&  req.body.rightAnswer != null &&  req.body.wrongAnswers != null) {
+        const pool = await poolPromise;
+        const result = await pool
+          .request()
+          .input('question', sql.VarChar, req.body.question)
+          .input('rightAnswer', sql.VarChar, req.body.rightAnswer)
+          .input('wrongAnswer', sql.VarChar, req.body.wrongAnswers)
+          .query(
+            'insert into [dbo].[ChoiceQuiz] values(@question, @rightAnswer, @wrongAnswer)'
+          );
+        res.json(result);
+      } else {
+        res.send('Error, llena los datos');
+      }
+    } catch (error) {
+      console.log(error);
       res.status(500);
       res.send(error.message);
     }

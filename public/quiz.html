@@ -20,7 +20,7 @@
                 <div class="container-fluid">
                     <div class="menu-wrapper">
                         <div class="logo">
-                            <a href="index.html"><img src="assets/img/logo/logo.png" alt="" width="200px"></a>
+                            <a href="admin.html"><img src="assets/img/logo/logo.png" alt="" width="200px"></a>
                         </div>
                         <div class="main-menu d-none d-lg-block">
                             <nav>                                                
@@ -58,17 +58,15 @@
                         <h2 class="card-title mt-5">Introduce la pregunta</h2>
                             <form >
                                 <div class="input-group">
-                                    <input class="form-control mb-2" id="imgInput" type="search" placeholder="Pregunta" aria-label="Search">
-                                    <button class="btn btn-outline-success p-2 my-sm-0 rounded" id="botonAgregarPregunta" type="submit" style="background-color: #ffa500;">Agregar</button>
+                                    <input class="form-control mb-2" id="question" type="input" placeholder="Pregunta" aria-label="Search" required>
+                                    <button class="btn btn-outline-success p-2 mx-2 my-sm-0 rounded" id="botonAgregarPregunta" type="submit" style="background-color: #ffa500;">Agregar</button>
                                 </div>
-                            </form>
-                            <form>
                                 <div class="mt-2">
                                     <h4 class="card-title">Introduce las respuestas</h4>
-                                    <input class="form-control mb-2" id="RespuestaCorrecta" type="search" placeholder="Respuesta correcta" aria-label="Search">
-                                    <input class="form-control mb-2 RespuestaIncorrecta" type="search" placeholder="Respuesta incorrecta" aria-label="Search">
-                                    <input class="form-control mb-2" type="search" placeholder="Respuesta incorrecta" aria-label="Search">
-                                    <input class="form-control mb-2" type="search" placeholder="Respuesta incorrecta" aria-label="Search">
+                                    <input class="form-control mb-2" id="rightAnswer" type="text" placeholder="Respuesta correcta" aria-label="Search" required>
+                                    <input class="form-control mb-2 wrongAnswer" type="text" placeholder="Respuesta incorrecta" aria-label="Search" required>
+                                    <input class="form-control mb-2 wrongAnswer" type="text" placeholder="Respuesta incorrecta" aria-label="Search" required>
+                                    <input class="form-control mb-2 wrongAnswer" type="text" placeholder="Respuesta incorrecta" aria-label="Search" required>
                                 </div>
                             </form>
                     </div>

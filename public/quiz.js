@@ -1,6 +1,12 @@
 const botonAgregar = document.getElementById('botonAgregar');
 const botonEliminar = document.getElementById('botonEliminar');
+const botonAgregarPregunta = document.getElementById('botonAgregarPregunta');
+
+const question = document.getElementById('question');
+const rightAnswer = document.getElementById('rightAnswer');
+const wrongAnswers = document.getElementsByClassName('wrongAnswer');
 const imgN = document.getElementById('imgInput');
+
 
 botonAgregar.addEventListener('click', () => {
   axios({
@@ -26,6 +32,24 @@ botonEliminar.addEventListener('click', () => {
   })
     .then(res => {
       alert(`Imagen eliminada con exito`);
+    })
+    .catch(err => console.log(err));
+});
+
+
+botonAgregarPregunta.addEventListener('click', () => {
+
+  axios({
+    method: 'POST',
+    url: 'http://localhost:4000/api/addQuestion/',
+    data: {
+      question: question.value,
+      rightAnswer: rightAnswer.value,
+      wrongAnswers: [wrongAnwersInput[0].value, wrongAnwersInput[1].value, wrongAnwersInput[2].value]
+    }
+  })
+    .then(res => {
+      alert(`Pregunta añadida con exito`);
     })
     .catch(err => console.log(err));
 });

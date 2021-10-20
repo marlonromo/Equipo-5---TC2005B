@@ -45,7 +45,7 @@ botonAgregarPregunta.addEventListener('click', () => {
     data: {
       question: question.value,
       rightAnswer: rightAnswer.value,
-      wrongAnswers: [wrongAnwersInput[0].value, wrongAnwersInput[1].value, wrongAnwersInput[2].value]
+      wrongAnswers: [wrongAnswers[0].value, wrongAnswers[1].value, wrongAnswers[2].value]
     }
   })
     .then(res => {

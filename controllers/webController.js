@@ -219,7 +219,7 @@ class MainController {
   async addQuestion(req, res) {
     try {
       console.log(req.body)
-      if (req.body.question != null &&  req.body.rightAnswer != null &&  req.body.wrongAnswers != null) {
+      if (req.body.question != "" &&  req.body.rightAnswer != "" &&  req.body.wrongAnswers != "") {
         const pool = await poolPromise;
         const result = await pool
           .request()
@@ -227,7 +227,7 @@ class MainController {
           .input('rightAnswer', sql.VarChar, req.body.rightAnswer)
           .input('wrongAnswer', sql.VarChar, req.body.wrongAnswers)
           .query(
-            'insert into [dbo].[ChoiceQuiz] values(@question, @rightAnswer, @wrongAnswer)'
+            'EXECUTE SPAddChoiceQuiz @question, @rightAnswer, @wrongAnswer'
           );
         res.json(result);
       } else {

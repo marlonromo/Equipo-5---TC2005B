@@ -53,4 +53,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Minigames/MinigameJavier/Scenes/sceneFin.unity
     guid: 1b2022582105ccb4b8cfc0804fccd88f
+  - enabled: 1
+    path: Assets/Minigames/WordQuiz/ChooseQuiz.unity
+    guid: 499420c53dba1c94ab356655c2c88bb7
+  - enabled: 1
+    path: Assets/Minigames/WordQuiz/ChoiceQuiz.unity
+    guid: 153c6eb4ff02b6740aa771d913063fbe
   m_configObjects: {}

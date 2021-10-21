@@ -10,7 +10,7 @@ const tradeController = require('../controllers/tradeController');
 const friendController = require('../controllers/friendController');
 const controller = require('../controllers/playerController');
 const statisticController = require('../controllers/statisticController');
-
+const quizController = require('../controllers/quizController');
 
 const router = express.Router();
 //web
@@ -60,6 +60,8 @@ router.get('/api/acceptTrade/:id/:playerToTradeID', tradeController.acceptTrade)
 router.get('/api/deleteTrade/:id/:playerToTradeID', tradeController.deleteTrade);
 //STATISTIC NUEVO
 router.get('/api/newStatistic/:id/:inputTransform', statisticController.newStatistic);
+//Choice Quiz
+router.get('/api/getChoiceQuiz', quizController.getChoiceQuiz);
 
 
 module.exports = router;

@@ -13,11 +13,20 @@ class MainController{
             res.status(500)
             res.send(error.message)
         }
-        /*
-        CREATE PROCEDURE SPGetChoiceQuiz @QuizID INT AS
-        SELECT * FROM ChoiceQuiz
-        WHERE QuizID = @QuizID
-        */
+    }
+    async updateChoiceQuiz(req , res){
+        try {
+            const pool = await poolPromise
+            const result = await pool.request()
+            .input('playerID', sql.Int, req.params.id)
+            .input('quizID', sql.Int, req.params.quizID)
+            .query("EXECUTE SPUpdateChoiceQuiz @playerID, @quizID")
+            res.json(result.recordset)
+        } catch (error) {
+            console.log(error)
+            res.status(500)
+            res.send(error.message)
+        }
     }
 }
 

@@ -11,6 +11,7 @@ const friendController = require('../controllers/friendController');
 const controller = require('../controllers/playerController');
 const statisticController = require('../controllers/statisticController');
 const quizController = require('../controllers/quizController');
+const missionController = require('../controllers/missionController');
 
 const router = express.Router();
 //web
@@ -62,6 +63,8 @@ router.get('/api/deleteTrade/:id/:playerToTradeID', tradeController.deleteTrade)
 router.get('/api/newStatistic/:id/:inputTransform', statisticController.newStatistic);
 //Choice Quiz
 router.get('/api/getChoiceQuiz', quizController.getChoiceQuiz);
+//Misiones
+router.get('/api/getMission,', missionController.getMission);
 
 
 module.exports = router;

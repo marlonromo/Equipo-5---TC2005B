@@ -1,12 +1,12 @@
 const { sql,poolPromise } = require('../database/db')
 
 class MainController{
-    async getChoiceQuiz(req , res){
+    async getMission(req , res){
         try {
             const pool = await poolPromise
             const result = await pool.request()
             .input('playerID', sql.Int, req.params.id)
-            .query("EXECUTE SPGetChoiceQuiz @playerID")
+            .query("EXECUTE SPGetMission @playerID")
             res.json(result.recordset)
         } catch (error) {
             console.log(error)
@@ -14,13 +14,13 @@ class MainController{
             res.send(error.message)
         }
     }
-    async updateChoiceQuiz(req , res){
+    async updateMission(req , res){
         try {
             const pool = await poolPromise
             const result = await pool.request()
             .input('playerID', sql.Int, req.params.playerID)
-            .input('quizID', sql.Int, req.params.quizID)
-            .query("EXECUTE SPUpdateChoiceQuiz @playerID, @quizID")
+            .input('missionID', sql.Int, req.params.missionID)
+            .query("EXECUTE SPUpdateMission @playerID, @missionID")
             res.json(result.recordset)
         } catch (error) {
             console.log(error)
@@ -30,5 +30,6 @@ class MainController{
     }
 }
 
-const quizController = new MainController()
-module.exports = quizController;
+const missionController = new MainController()
+module.exports = missionController;
+

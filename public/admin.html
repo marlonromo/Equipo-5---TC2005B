@@ -29,7 +29,7 @@
                                     <li><a href="RegistroAdmin.html">Registrar nuevo administrador</a></li>
                                     <li><a href="ranking.html" >Ranking</a></li>
                                     <li><a href="quiz.html" >Minijuego Quiz</a></li>
-                                    <a href="login.html"><button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="background-color: #e74c3c;">Cerrar Sesión</button></a>
+                                    <a href="login.html"><button class="btn btn-outline-success my-2 my-sm-0 p-3 rounded" type="submit" style="background-color: #e74c3c;">Cerrar Sesión</button></a>
                                 </ul>
                             </nav>
                         </div>                       
@@ -50,12 +50,14 @@
                 <div class="card"></div>
                     <div class="card-body">
                         <h1 class="card-title">Buscar el empleado para obtener sus estadísticas</h5>
-                        <nav class="navbar navbar-light bg-light">
-                            <!-- <form class="form-inline">  -->
-                                <input class="form-control" id="playerName" type="search" placeholder="Empleado" aria-label="Search">
-                                <!-- chartid js  -->
-                                <button class="btn btn-outline-success my-2 my-sm-0" id="buscar" type="submit" style="background-color: #ffa500;">Buscar</button>
-                            <!-- </form> -->
+                        <nav class="row">
+                            <div class="col-6 input-group">
+                                <!-- <form class="form-inline">  -->
+                                    <input class="form-control" id="playerName" type="search" placeholder="Empleado" aria-label="Search">
+                                    <!-- chartid js  -->
+                                    <button class="btn btn-outline-success ml-2 my-2 my-sm-0 rounded p-3" id="buscar" type="submit" style="background-color: #ffa500;">Buscar</button>
+                                <!-- </form> -->
+                            </div>
                         </nav>
                     </div>
                 </div>  
@@ -63,16 +65,14 @@
                     <header>
                         <div class="header-area">
                             <div class="main-header header-sticky" style="padding-left: 0px;">
-                                <div class="container-fluid">
-                                    <div class="menu-wrapper">
-                                        <div class="main-menu d-none d-lg-block">
-                                            <nav >                                                
-                                                <ul id="navigation" style="padding-top: 20px; padding-bottom: 30px;">  
-                                                    <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" style="background-color: #ffa500;">Rendimiento</a>
-                                                    <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" style="background-color: #ffa500;">Capacidad</a>
-                                                    <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" style="background-color: #ffa500;">Detalles</a>
-                                                </ul>
-                                            </nav>
+                                <div class="row align-items-center justify-content-center">
+                                    <div class="row menu-wrapper">
+                                        <div class="col-12 main-menu">                                              
+                                            <ul class="" id="navigation" style="padding-top: 20px; padding-bottom: 30px;">  
+                                                <a href="#" class="mx-1 btn btn-primary btn-lg active rounded" role="button" aria-pressed="true" style="background-color: #ffa500;">Rendimiento</a>
+                                                <a href="#" class="mx-1 btn btn-primary btn-lg active rounded" role="button" aria-pressed="true" style="background-color: #ffa500;">Capacidad</a>
+                                                <a href="#" class="mx-1 btn btn-primary btn-lg active rounded" role="button" aria-pressed="true" style="background-color: #ffa500;">Detalles</a>
+                                            </ul>
                                         </div>                       
                                     </div>
                                     <div class="col-12">

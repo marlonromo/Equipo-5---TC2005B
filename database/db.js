@@ -1,5 +1,5 @@
 const sql = require('mssql');
-// Server=tcp:equipo5.database.windows.net,1433;Initial Catalog=equipo5Web;Persist Security Info=False;User ID=equipo5Admin;Password={your_password};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
+
 const config = {
     user: 'admintsteel',
     password: 'equipo5*',

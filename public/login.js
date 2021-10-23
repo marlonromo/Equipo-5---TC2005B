@@ -18,7 +18,7 @@ boton.addEventListener('click', () => {
       } 
       else if(res.data[0].Pass == password.value && res.data[0].IsAdmin==0){
         console.log("here");
-        window.location = 'Game/index.html?user_id=' + res.data[0].IDUsuario;
+        window.location = 'GameF/index.html?user_id=' + res.data[0].IDUsuario;
       }
       else {
         alert(`Datos incorrectos`);

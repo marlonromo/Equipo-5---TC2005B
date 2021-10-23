@@ -12,10 +12,6 @@ const controller = require('../controllers/playerController');
 const statisticController = require('../controllers/statisticController');
 const quizController = require('../controllers/quizController');
 const missionController = require('../controllers/missionController');
-<<<<<<< HEAD
-
-=======
->>>>>>> b5deebd475fd5027654276aeba118c446cd3e7ca
 
 const router = express.Router();
 //web
@@ -66,9 +62,13 @@ router.get('/api/deleteTrade/:id/:playerToTradeID', tradeController.deleteTrade)
 //STATISTIC NUEVO
 router.get('/api/newStatistic/:id/:inputTransform', statisticController.newStatistic);
 //Choice Quiz
-router.get('/api/getChoiceQuiz', quizController.getChoiceQuiz);
-//Misiones
-router.get('/api/getMission,', missionController.getMission);
+router.get('/api/getChoiceQuiz/:id', quizController.getChoiceQuiz);
+router.put('/api/updateChoiceQuiz/:playerID/:quizID', quizController.updateChoiceQuiz);
+//Mission
+router.get('/api/getMission/:id', missionController.getMission);
+router.put('/api/updateMission/:id', missionController.updateMission);
+
+
 
 
 module.exports = router;

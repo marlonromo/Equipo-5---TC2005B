@@ -14,6 +14,8 @@ public class Player : MonoBehaviour
     public loadDataFriend loadDataFriend;
     public loadDataTrade loadDataTrade;
     public loadDataSettings loadDataSettings;
+    public loadDataMissions loadDataMissions;
+   // public loadDataQuestions loadDataQuestions;
 
     public savePlayerData savePlayerData;
     public saveBuildingData saveBuildingData;
@@ -48,6 +50,8 @@ public class Player : MonoBehaviour
         loadDataFriend.loadDataFriendNow();
         loadDataTrade.loadDataTradeNow();
         loadDataSettings.loadDataSettingsNow();
+        loadDataMissions.loadDataMission();
+        //loadDataQuestions.LoadQuestion();
     }
 
     public void savePlayerDataNow(){

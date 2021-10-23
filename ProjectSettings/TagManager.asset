@@ -47,6 +47,12 @@ TagManager:
   - cd
   - techo
   - barril
+  - ChoiceQuizQ
+  - ChoiceQuizAns1
+  - ChoiceQuizAns2
+  - ChoiceQuizAns3
+  - ChoiceQuizAns4
+  - NoQuiz
   layers:
   - Default
   - TransparentFX
